@@ -10,7 +10,6 @@ class Book:
     def status(self):
         print(f"{self.title}: {'O‘qilgan' if self.is_read else 'O‘qilmagan'}")
 
-# Test
 b1 = Book("Kitob 1", "Muallif A")
 b2 = Book("Kitob 2", "Muallif B")
 b3 = Book("Kitob 3", "Muallif C")

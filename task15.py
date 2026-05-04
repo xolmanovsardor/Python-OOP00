@@ -4,7 +4,6 @@ class Product:
         self.price = price
         self.in_stock = in_stock
 
-# Test
 products = [
     Product("AirPods", 199.99, True),
     Product("iPhone 13", 999.99, False),

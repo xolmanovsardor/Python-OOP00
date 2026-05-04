@@ -5,6 +5,5 @@ class Movie:
         self.duration = duration
         self.rating = rating
 
-# Test
 m = Movie("Inception", "fantastika", 148, 8.8)
 print(m.title, m.genre, m.duration, m.rating)

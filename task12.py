@@ -13,7 +13,6 @@ class BankAccount:
     def show_balance(self):
         print(f"{self.owner} balans: {self.balance}")
 
-# Test
 a1 = BankAccount("Ali", 500)
 a2 = BankAccount("Malika", 800)
 a3 = BankAccount("John", 300)

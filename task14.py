@@ -6,7 +6,6 @@ class Student:
     def show_info(self):
         print(f"{self.name}, {self.age} yoshda.")
 
-# Test
 students = [
     Student("Ali", 15),
     Student("Malika", 17),

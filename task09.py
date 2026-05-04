@@ -12,7 +12,6 @@ class User:
         self.is_active = False
         print(f"{self.username} bloklandi ❌")
 
-# Test
 u = User("diyorbek", "diyor@example.com", False)
 u.activate()
 u.deactivate()

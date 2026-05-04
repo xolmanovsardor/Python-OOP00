@@ -14,7 +14,6 @@ class BankAccount:
         else:
             print("Xatolik: yetarli mablag‘ yo‘q.")
 
-# Test
 acc = BankAccount("Ali", 500)
 acc.deposit(200)
 acc.withdraw(100)

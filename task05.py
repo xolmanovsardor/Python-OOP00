@@ -5,7 +5,7 @@ class Product:
         self.category = category
         self.in_stock = in_stock
 
-# Test
+
 p1 = Product("AirPods", 199.99, "electronics", True)
 p2 = Product("iPhone 13", 999.99, "electronics", False)
 

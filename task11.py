@@ -11,7 +11,6 @@ class Book:
     def status(self):
         print("O‘qilgan" if self.is_read else "O‘qilmagan")
 
-# Test
 b = Book("Python 101", "John Doe")
 b.status()
 b.mark_as_read()

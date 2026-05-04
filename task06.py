@@ -3,10 +3,7 @@ class Student:
         self.name = name
         self.age = age
         self.grade = grade
-
-    def info(self):
-        print(f"{self.name}, {self.age} yoshda, {self.grade} o‘quvchisi.")
-
-# Test
-s = Student("Ali", 15, "9-sinf")
-s.info()
+def info(self):
+    print(f"o'quvchi haqida malumot: Ismi{self.name} Yoshi{self.age},  {self.grade} - Sinf o'quvchisi")
+s01 = Student('Ali', 20, 'A')
+s01.info()
